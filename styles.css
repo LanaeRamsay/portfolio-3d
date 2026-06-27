@@ -1,0 +1,81 @@
+/* Get rid of underline */
+a {
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.svg {
+  color: #9af;
+}
+
+.svg.hovered {
+  color: #fff;
+}
+
+/* Navbar Container */
+.navbar {
+    align-items: center;
+    background-color: #080828;
+    padding: 0px 16px;
+}
+
+/* Makes list horizontal. Remove dots */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+/* Individual links */
+.nav-links a {
+    color: #9af;
+    font-size: 17px;
+    padding: 12px 32px;
+}
+
+/* Hover effect for links */
+.nav-links a:hover {
+    background-color: #227;
+    color: #fff;
+}
+
+/* Tap effect for links */
+.nav-links a:active {
+    background-color: #44b;
+    color: #fff;
+}
+
+/* Current page */
+.nav-links a.active {
+    background-color: #227;
+    color: #fff;
+}
+
+.nav-links li {
+    padding: 10px 0px;
+}
+
+/* For custom hamburger button */
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+body {
+    background-color: #113;
+    color: #fff;
+}
+
+footer {
+    font-size: 14px;
+    text-align: center;
+    color: #448;
+}
+
+object {
+  pointer-events: none;
+}
